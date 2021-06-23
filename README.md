@@ -11,4 +11,4 @@ Exercise about HTML Form elements
 
   ![mockup-image](/images/mockup.png)
 
-- For online version just [click...!](https://hsnakk.github.io/UIB_Data_Form_Exercise-2/)
+- For online version just [click...!](https://hsnakk.github.io/login-form/)
