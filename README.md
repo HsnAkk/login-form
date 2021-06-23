@@ -9,6 +9,6 @@ Exercise about HTML Form elements
 - On focus, there must be no outline around inputs.
 - All inputs must be filled out, otherwise can not submit the form.
 
-  ![mockup-image](/images/mockup.png)
+  ![mockup-image](mockup.png)
 
 - For online version just [click...!](https://hsnakk.github.io/login-form/)
