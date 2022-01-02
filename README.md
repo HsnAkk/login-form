@@ -8,6 +8,7 @@ Exercise about HTML Form elements
 - Look at the mockup image. Create a Form and style it like the mockup.
 - On focus, there must be no outline around inputs.
 - All inputs must be filled out, otherwise can not submit the form.
+- Initially Car option is selected
 
   ![mockup-image](mockup.png)
 
