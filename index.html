@@ -3,21 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form class="login-form">
-        <h1>Login</h1>
+        <h1>Start Booking Now</h1>
         <div class="form-input">
-            <input type="text" name="username" id="username" autocomplete="off" required />
-            <label for="username">Username</label>
+            <input type="text" name="fullname" id="fullname" placeholder="Full Name" autocomplete="off" required />
+            <label for="fullname">Full Name</label>
         </div>
+
         <div class="form-input">
-            <input type="password" name="password" id="password" autocomplete="off" required />
-            <label for="password">Password</label>
+            <input type="email" name="email" id="email" placeholder="Email" autocomplete="off" required />
+            <label for="email">Email</label>
         </div>
-        <button type="submit" class="btn">Login</button>
+
+        <div class="form-input">
+            <div class="form__radio-group">
+                <input type="radio" class="form__radio-input" id="car" name="vehicle">
+                <label for="car" class="form__radio-label">
+                    <span class="form__radio-button"></span>
+                    Car
+                </label>
+            </div>
+            <div class="form__radio-group">
+                <input type="radio" class="form__radio-input" id="bike" name="vehicle">
+                <label for="bike" class="form__radio-label">
+                    <span class="form__radio-button"></span>
+                    Bike
+                </label>
+            </div>
+        </div>
+
+        <button type="submit" class="btn">Book now</button>
     </form>
 </body>
 </html>
